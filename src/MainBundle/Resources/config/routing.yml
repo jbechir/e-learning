@@ -1,0 +1,8 @@
+main_homepage:
+    path:     /hello
+    defaults: { _controller: MainBundle:Advert:index }
+hello_the_world:
+
+    path:     /hello-world
+
+    defaults: { _controller: MainBundle:Default:index }
